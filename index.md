@@ -12,4 +12,4 @@
 	- [Internal data](http://scoring-engine.readthedocs.io/en/latest/3.%20API%20documentation/#internal-data)
 4. [Implementation of scoring models](http://scoring-engine.readthedocs.io/en/latest/4.%20Implementation%20of%20scoring%20models/)
 5. [Creating and testing a scenario](http://scoring-engine.readthedocs.io/en/latest/5.%20Creating%20and%20testing%20a%20scenario/)
-6. [Examples of engine operations through API](http://scoring-engine.readthedocs.io/en/latest/6.%20Examples%20of%20engine%20operations%20through%20API/)
+6. [Examples of engine operations through API](http://scoring-engine.readthedocs.io/en/latest/api.html)
