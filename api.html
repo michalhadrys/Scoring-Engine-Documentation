@@ -844,7 +844,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h4 id="_example_request"><a class="link" href="#_example_request">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/import?overwrite=false' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Content-Type: application/json; charset=UTF-8' -d '[ {
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/import?overwrite=false' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Content-Type: application/json; charset=UTF-8' -d '[ {
   "id" : "5929acd65827d2000734937f",
   "name" : "simple",
   "createdAt" : 1495903446443,
@@ -892,7 +892,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:39 GMT
+Date: Tue, 18 Jul 2017 09:47:57 GMT
 Content-Length: 17
 
 {
@@ -935,7 +935,7 @@ Content-Length: 17
 <h4 id="_example_request_2"><a class="link" href="#_example_request_2">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/export' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/export' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -962,14 +962,14 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:39 GMT
+Date: Tue, 18 Jul 2017 09:47:57 GMT
 Content-Length: 2974
 
 [ {
   "id" : "5929acd65827d2000734937f",
   "name" : "simple",
-  "createdAt" : 1500369999179,
-  "updatedAt" : 1500369999179,
+  "createdAt" : 1500371277620,
+  "updatedAt" : 1500371277620,
   "content" : "{\"cells\":[{\"type\":\"html.Element\",\"position\":{\"x\":378,\"y\":177},\"backendModelParams\":{\"name\":\"Start\",\"id\":\"5929aceb5827d20007349380\",\"entityIdentifier\":\"start\"},\"options\":{\"interactive\":true},\"isChartNode\":true,\"id\":\"0e590ebd-41f7-41f9-9748-8e23e6b297ef\",\"z\":1,\"attrs\":{\".name\":{\"text\":\"Start\",\"x\":\"30px\",\"y\":\"24px\",\"x-alignment\":\"left\"},\".full-name\":{\"text\":\"Start\"},\".connection-port\":{\"display\":\"block\"},\".connection-port-true\":{\"display\":\"none\"},\".connection-port-false\":{\"display\":\"none\"},\".connection-port-decision-true\":{\"display\":\"none\"},\".connection-port-decision-false\":{\"display\":\"none\"},\"rect\":{\"fill\":\"#43a047\"}}},{\"type\":\"html.Element\",\"position\":{\"x\":353,\"y\":331},\"backendModelParams\":{\"name\":\"Expression\",\"id\":\"5929aced5827d20007349381\",\"entityIdentifier\":\"expression\"},\"options\":{\"interactive\":true},\"isChartNode\":true,\"id\":\"0bdd89e3-80a8-4f33-89b6-a52ffb631e46\",\"z\":2,\"attrs\":{\".name\":{\"text\":\"Expression\",\"x\":\"30px\",\"y\":\"24px\",\"x-alignment\":\"left\"},\".full-name\":{\"text\":\"Expression\"},\".connection-port\":{\"display\":\"block\"},\".connection-port-true\":{\"display\":\"none\"},\".connection-port-false\":{\"display\":\"none\"},\".connection-port-decision-true\":{\"display\":\"none\"},\".connection-port-decision-false\":{\"display\":\"none\"},\"rect\":{\"fill\":\"#009688\"}}},{\"type\":\"link\",\"source\":{\"id\":\"0e590ebd-41f7-41f9-9748-8e23e6b297ef\"},\"target\":{\"id\":\"0bdd89e3-80a8-4f33-89b6-a52ffb631e46\"},\"backendModelParams\":{\"id\":\"5929acef5827d20007349382\"},\"isChartNode\":false,\"data\":{},\"id\":\"c2428e66-7467-4c3b-a32a-3114b7762e37\",\"z\":3,\"vertices\":[{\"x\":411,\"y\":277.5}],\"attrs\":{\".marker-target\":{\"d\":\"M 10 0 L 0 5 L 10 10 z\"},\".marker-source\":{\"display\":\"none\"},\".marker-vertex-remove-area\":{\"display\":\"none\"},\".marker-vertex-remove\":{\"display\":\"none\"},\".marker-vertex\":{\"r\":\"5\"},\".connection\":{\"stroke\":\"gray\"}}}]}",
   "nodeProperties" : {
     "5929aceb5827d20007349380" : {
@@ -1046,7 +1046,7 @@ Content-Length: 2974
 <h4 id="_example_request_3"><a class="link" href="#_example_request_3">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/process/create/5929acd65827d2000734937f' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/process/create/5929acd65827d2000734937f' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -1073,7 +1073,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:39 GMT
+Date: Tue, 18 Jul 2017 09:47:57 GMT
 Content-Length: 961
 
 {
@@ -1187,7 +1187,7 @@ Content-Length: 961
 <h4 id="_example_request_4"><a class="link" href="#_example_request_4">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/import?overwrite=false' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Content-Type: application/json; charset=UTF-8' -d '[ {
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/import?overwrite=false' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Content-Type: application/json; charset=UTF-8' -d '[ {
   "type" : "scoring",
   "name" : "Simple",
   "className" : "SimpleScoringCode",
@@ -1225,7 +1225,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 17
 
 {
@@ -1268,7 +1268,7 @@ Content-Length: 17
 <h4 id="_example_request_5"><a class="link" href="#_example_request_5">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/export' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/export' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -1295,7 +1295,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 2006
 
 [ {
@@ -1347,7 +1347,7 @@ Content-Length: 2006
 <h4 id="_example_request_6"><a class="link" href="#_example_request_6">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/list' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/list' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -1374,7 +1374,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 2006
 
 [ {
@@ -1426,7 +1426,7 @@ Content-Length: 2006
 <h4 id="_example_request_7"><a class="link" href="#_example_request_7">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/count' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/code/count' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -1453,7 +1453,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 1
 
 1</code></pre>
@@ -1533,7 +1533,7 @@ Content-Length: 1
 <h4 id="_example_request_8"><a class="link" href="#_example_request_8">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/create?name=simple&amp;increaseVersion=false' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Content-Type: application/json; charset=UTF-8' -d '{
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/create?name=simple&amp;increaseVersion=false' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Content-Type: application/json; charset=UTF-8' -d '{
   "nodes" : {
     "1" : {
       "resultPrefix" : null,
@@ -1584,7 +1584,7 @@ Content-Length: 1
 <div class="sect3">
 <h4 id="_response_structure_8"><a class="link" href="#_response_structure_8">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1602,7 +1602,7 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Date: Tue, 18 Jul 2017 09:26:40 GMT</code></pre>
+Date: Tue, 18 Jul 2017 09:47:58 GMT</code></pre>
 </div>
 </div>
 </div>
@@ -1661,7 +1661,7 @@ Date: Tue, 18 Jul 2017 09:26:40 GMT</code></pre>
 <h4 id="_example_request_9"><a class="link" href="#_example_request_9">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/score?name=simple' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Content-Type: application/json; charset=UTF-8' -d '{
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/score?name=simple' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Content-Type: application/json; charset=UTF-8' -d '{
   "AAA" : 2.5
 }'</code></pre>
 </div>
@@ -1723,7 +1723,7 @@ Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: X-ACCESS_TOKEN, Access-Control-Allow-Origin, Authorization, Origin, x-requested-with, Content-Type, Content-Range, Content-Disposition, Content-Description
-Set-Cookie: sceuid=gswi96k3-9ymw-tpzs-jpg7-hnk9adaxhj8g
+Set-Cookie: sceuid=hsjyjq9j-kbyj-7miz-r89j-o3wjh9f5dlqt
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -1732,20 +1732,20 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 328
 
 {
   "name" : "simple",
-  "beginTime" : "2017-07-18T09:26:38.639Z",
-  "endTime" : "2017-07-18T09:26:38.740Z",
+  "beginTime" : "2017-07-18T09:47:57.085Z",
+  "endTime" : "2017-07-18T09:47:57.186Z",
   "result" : {
     "AAA" : 2.5,
     "V" : [ 0, 1, 2, 3, 4 ],
     "TMP" : 10,
     "__additional" : {
       "remoteAddr" : "127.0.0.1",
-      "sceuid" : "gswi96k3-9ymw-tpzs-jpg7-hnk9adaxhj8g"
+      "sceuid" : "hsjyjq9j-kbyj-7miz-r89j-o3wjh9f5dlqt"
     }
   },
   "error" : null
@@ -1791,7 +1791,7 @@ Content-Length: 328
 <h4 id="_example_request_10"><a class="link" href="#_example_request_10">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/remote/score?name=simple&amp;key=dqbioaex-7ckt-ld5j-ypm4-avne5fagcu92' -i -X POST -H 'Accept: application/json' -H 'Content-Type: application/json; charset=UTF-8' -d '{
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/remote/score?name=simple&amp;key=bexyxklj-jcj3-rnsr-vqo1-y8dyo0o1vxlj' -i -X POST -H 'Accept: application/json' -H 'Content-Type: application/json; charset=UTF-8' -d '{
   "AAA" : 2.5
 }'</code></pre>
 </div>
@@ -1853,7 +1853,7 @@ Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: X-ACCESS_TOKEN, Access-Control-Allow-Origin, Authorization, Origin, x-requested-with, Content-Type, Content-Range, Content-Disposition, Content-Description
-Set-Cookie: sceuid=k3mlbxgx-whij-voew-7f9v-z88p0nzlbwv0
+Set-Cookie: sceuid=okqcq5gj-e08d-p3kg-9rf6-30ooe6gqtrio
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -1862,20 +1862,20 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 328
 
 {
   "name" : "simple",
-  "beginTime" : "2017-07-18T09:26:38.639Z",
-  "endTime" : "2017-07-18T09:26:38.740Z",
+  "beginTime" : "2017-07-18T09:47:57.085Z",
+  "endTime" : "2017-07-18T09:47:57.186Z",
   "result" : {
     "AAA" : 2.5,
     "V" : [ 0, 1, 2, 3, 4 ],
     "TMP" : 10,
     "__additional" : {
       "remoteAddr" : "127.0.0.1",
-      "sceuid" : "k3mlbxgx-whij-voew-7f9v-z88p0nzlbwv0"
+      "sceuid" : "okqcq5gj-e08d-p3kg-9rf6-30ooe6gqtrio"
     }
   },
   "error" : null
@@ -1939,7 +1939,7 @@ Content-Length: 328
 <h4 id="_example_request_11"><a class="link" href="#_example_request_11">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/validate/simple' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Content-Type: application/json; charset=UTF-8' -d '{
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/validate/simple' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Content-Type: application/json; charset=UTF-8' -d '{
   "AAA" : 2.5
 }'</code></pre>
 </div>
@@ -2009,13 +2009,13 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 208
 
 {
   "name" : "simple",
-  "beginTime" : "2017-07-18T09:26:38.641Z",
-  "endTime" : "2017-07-18T09:26:38.741Z",
+  "beginTime" : "2017-07-18T09:47:57.087Z",
+  "endTime" : "2017-07-18T09:47:57.187Z",
   "result" : {
     "AAA" : 2.5,
     "V" : [ 0, 1, 2, 3, 4 ],
@@ -2082,7 +2082,7 @@ Content-Length: 208
 <h4 id="_example_request_12"><a class="link" href="#_example_request_12">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/validate/sample/simple' -i -H 'Accept: application/json' -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/validate/sample/simple' -i -H 'Accept: application/json' -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x'</code></pre>
 </div>
 </div>
 </div>
@@ -2150,13 +2150,13 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 207
 
 {
   "name" : "simple",
-  "beginTime" : "2017-07-18T09:26:38.641Z",
-  "endTime" : "2017-07-18T09:26:38.741Z",
+  "beginTime" : "2017-07-18T09:47:57.087Z",
+  "endTime" : "2017-07-18T09:47:57.187Z",
   "result" : {
     "AAA" : 1.0,
     "V" : [ 0, 1, 2, 3, 4 ],
@@ -2239,7 +2239,7 @@ Content-Length: 207
 <h4 id="_example_request_13"><a class="link" href="#_example_request_13">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/scoreasync/simple' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'X-SCE-RequestId: id_1' -H 'X-SCE-CallbackUrl: http://example.org/' -H 'X-SCE-CallbackRetryCount: 3' -H 'X-SCE-CallbackRetryDelay: 30' -H 'Content-Type: application/json; charset=UTF-8' -d '{
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/scoreasync/simple' -i -X POST -H 'Accept: application/json' -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'X-SCE-RequestId: id_1' -H 'X-SCE-CallbackUrl: http://example.org/' -H 'X-SCE-CallbackRetryCount: 3' -H 'X-SCE-CallbackRetryDelay: 30' -H 'Content-Type: application/json; charset=UTF-8' -d '{
   "AAA" : 2.5
 }'</code></pre>
 </div>
@@ -2248,7 +2248,7 @@ Content-Length: 207
 <div class="sect3">
 <h4 id="_response_structure_13"><a class="link" href="#_response_structure_13">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2266,7 +2266,7 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Date: Tue, 18 Jul 2017 09:26:40 GMT</code></pre>
+Date: Tue, 18 Jul 2017 09:47:58 GMT</code></pre>
 </div>
 </div>
 </div>
@@ -2326,14 +2326,14 @@ Date: Tue, 18 Jul 2017 09:26:40 GMT</code></pre>
 <h4 id="_example_request_14"><a class="link" href="#_example_request_14">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/get/simple' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/get/simple' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_response_structure_14"><a class="link" href="#_response_structure_14">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2353,7 +2353,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 2209
 
 {
@@ -2363,10 +2363,10 @@ Content-Length: 2209
   "validFrom" : {
     "year" : 2017,
     "month" : "JULY",
+    "monthValue" : 7,
     "dayOfMonth" : 18,
     "dayOfWeek" : "TUESDAY",
     "era" : "CE",
-    "monthValue" : 7,
     "dayOfYear" : 199,
     "leapYear" : false,
     "chronology" : {
@@ -2377,10 +2377,10 @@ Content-Length: 2209
   "validTo" : {
     "year" : 3017,
     "month" : "JULY",
+    "monthValue" : 7,
     "dayOfMonth" : 18,
     "dayOfWeek" : "FRIDAY",
     "era" : "CE",
-    "monthValue" : 7,
     "dayOfYear" : 199,
     "leapYear" : false,
     "chronology" : {
@@ -2451,14 +2451,14 @@ Content-Length: 2209
 <h4 id="_example_request_15"><a class="link" href="#_example_request_15">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/attributes/simple' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/attributes/simple' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_response_structure_15"><a class="link" href="#_response_structure_15">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2478,7 +2478,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 110
 
 {
@@ -2548,14 +2548,14 @@ Content-Length: 110
 <h4 id="_example_request_16"><a class="link" href="#_example_request_16">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/download/simple' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/download/simple' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_response_structure_16"><a class="link" href="#_response_structure_16">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2575,7 +2575,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: text/plain;charset=UTF-8
 Content-Length: 961
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 
 {
   "nodes" : {
@@ -2659,7 +2659,7 @@ Date: Tue, 18 Jul 2017 09:26:40 GMT
 <h4 id="_example_request_17"><a class="link" href="#_example_request_17">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/list' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/list' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -2686,7 +2686,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 2213
 
 [ {
@@ -2696,10 +2696,10 @@ Content-Length: 2213
   "validFrom" : {
     "year" : 2017,
     "month" : "JULY",
+    "monthValue" : 7,
     "dayOfMonth" : 18,
     "dayOfWeek" : "TUESDAY",
     "era" : "CE",
-    "monthValue" : 7,
     "dayOfYear" : 199,
     "leapYear" : false,
     "chronology" : {
@@ -2710,10 +2710,10 @@ Content-Length: 2213
   "validTo" : {
     "year" : 3017,
     "month" : "JULY",
+    "monthValue" : 7,
     "dayOfMonth" : 18,
     "dayOfWeek" : "FRIDAY",
     "era" : "CE",
-    "monthValue" : 7,
     "dayOfYear" : 199,
     "leapYear" : false,
     "chronology" : {
@@ -2762,7 +2762,7 @@ Content-Length: 2213
 <h4 id="_example_request_18"><a class="link" href="#_example_request_18">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/count' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scenario/code/count' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -2789,7 +2789,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 1
 
 1</code></pre>
@@ -2860,14 +2860,14 @@ Content-Length: 1
 <h4 id="_example_request_19"><a class="link" href="#_example_request_19">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scoring/code/get/Simple' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scoring/code/get/Simple' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_response_structure_19"><a class="link" href="#_response_structure_19">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2887,7 +2887,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 2502
 
 {
@@ -2898,10 +2898,10 @@ Content-Length: 2502
   "validFrom" : {
     "year" : 2017,
     "month" : "MAY",
+    "monthValue" : 5,
     "dayOfMonth" : 29,
     "dayOfWeek" : "MONDAY",
     "era" : "CE",
-    "monthValue" : 5,
     "dayOfYear" : 149,
     "leapYear" : false,
     "chronology" : {
@@ -2912,10 +2912,10 @@ Content-Length: 2502
   "validTo" : {
     "year" : 2017,
     "month" : "MAY",
+    "monthValue" : 5,
     "dayOfMonth" : 29,
     "dayOfWeek" : "MONDAY",
     "era" : "CE",
-    "monthValue" : 5,
     "dayOfYear" : 149,
     "leapYear" : false,
     "chronology" : {
@@ -2986,14 +2986,14 @@ Content-Length: 2502
 <h4 id="_example_request_20"><a class="link" href="#_example_request_20">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scoring/code/attributes/Simple' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scoring/code/attributes/Simple' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_response_structure_20"><a class="link" href="#_response_structure_20">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -3013,7 +3013,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 Content-Length: 167
 
 {
@@ -3088,14 +3088,14 @@ Content-Length: 167
 <h4 id="_example_request_21"><a class="link" href="#_example_request_21">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scoring/code/download/Simple' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/api/scoring/code/download/Simple' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_response_structure_21"><a class="link" href="#_response_structure_21">Response structure</a></h4>
 <div class="paragraph">
-<p>Response status should be <code>201</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
+<p>Response status should be <code>200</code> or suitable <a href="#overview-errors">error</a> will be returned.</p>
 </div>
 </div>
 <div class="sect3">
@@ -3115,7 +3115,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: text/plain;charset=UTF-8
 Content-Length: 1703
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:58 GMT
 
 package com.ziom;
 
@@ -3215,7 +3215,7 @@ public class SimpleScoringCode implements ScoringCode {
 <h4 id="_example_request_22"><a class="link" href="#_example_request_22">Example request</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/user/token/list' -i -H 'Authorization: Bearer b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe' -H 'Accept: */*'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ curl 'http://example.org/user/token/list' -i -H 'Authorization: Bearer xjceycxs-bnch-ix33-rud0-qsbefmkpt05x' -H 'Accept: */*'</code></pre>
 </div>
 </div>
 </div>
@@ -3268,12 +3268,12 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 18 Jul 2017 09:26:40 GMT
+Date: Tue, 18 Jul 2017 09:47:57 GMT
 Content-Length: 124
 
 {
-  "authorizationToken" : "b6dm3c1v-tq9x-a0oc-iee5-c8xpsoo88vqe",
-  "scoreToken" : "dqbioaex-7ckt-ld5j-ypm4-avne5fagcu92"
+  "authorizationToken" : "xjceycxs-bnch-ix33-rud0-qsbefmkpt05x",
+  "scoreToken" : "bexyxklj-jcj3-rnsr-vqo1-y8dyo0o1vxlj"
 }</code></pre>
 </div>
 </div>
@@ -3284,7 +3284,7 @@ Content-Length: 124
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-07-18 11:22:18 +02:00
+Last updated 2017-07-18 11:45:41 +02:00
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
